@@ -6,7 +6,7 @@ from setuptools import setup
 long_description = open("README.rst").read()
 install_requires = ['xlrd >= 0.9.4',
                     'xlwt >= 1.0.0',
-                    'enum >= 0.4.6',
+                    'enum34 >= 0.4.6;python_version<"3.4"',
                     'numpy >= 1.8.2',
                     'quantities >= 0.10.1',
                     'odml >= 1.1.1']
